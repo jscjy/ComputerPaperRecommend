@@ -7,21 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BB7D84C01D63054800A9879B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB7D84BF1D63054800A9879B /* LaunchScreen.xib */; };
 		BBAEC5F61D6008CD008878F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAEC5F51D6008CD008878F7 /* Foundation.framework */; };
 		BBAEC5F81D6008CD008878F7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAEC5F71D6008CD008878F7 /* CoreGraphics.framework */; };
 		BBAEC5FA1D6008CD008878F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAEC5F91D6008CD008878F7 /* UIKit.framework */; };
 		BBAEC6001D6008CD008878F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBAEC5FE1D6008CD008878F7 /* InfoPlist.strings */; };
 		BBAEC6021D6008CD008878F7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAEC6011D6008CD008878F7 /* main.m */; };
 		BBAEC6061D6008CD008878F7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAEC6051D6008CD008878F7 /* AppDelegate.m */; };
-		BBAEC6091D6008CD008878F7 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBAEC6071D6008CD008878F7 /* Main_iPhone.storyboard */; };
-		BBAEC60C1D6008CD008878F7 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBAEC60A1D6008CD008878F7 /* Main_iPad.storyboard */; };
-		BBAEC60F1D6008CD008878F7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAEC60E1D6008CD008878F7 /* ViewController.m */; };
+		BBAEC6091D6008CD008878F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBAEC6071D6008CD008878F7 /* Main.storyboard */; };
+		BBAEC60F1D6008CD008878F7 /* HomePage.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAEC60E1D6008CD008878F7 /* HomePage.m */; };
 		BBAEC6111D6008CD008878F7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BBAEC6101D6008CD008878F7 /* Images.xcassets */; };
 		BBAEC6181D6008CD008878F7 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAEC6171D6008CD008878F7 /* XCTest.framework */; };
 		BBAEC6191D6008CD008878F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAEC5F51D6008CD008878F7 /* Foundation.framework */; };
 		BBAEC61A1D6008CD008878F7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAEC5F91D6008CD008878F7 /* UIKit.framework */; };
 		BBAEC6221D6008CD008878F7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BBAEC6201D6008CD008878F7 /* InfoPlist.strings */; };
-		BBAEC6241D6008CD008878F7 /* computerPaperRecommendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAEC6231D6008CD008878F7 /* computerPaperRecommendTests.m */; };
+		BBAEC6241D6008CD008878F7 /* ComputerPaperRecommendTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BBAEC6231D6008CD008878F7 /* ComputerPaperRecommendTests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,26 +35,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		BBAEC5F21D6008CD008878F7 /* computerPaperRecommend.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = computerPaperRecommend.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB7D84BF1D63054800A9879B /* LaunchScreen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		BBAEC5F21D6008CD008878F7 /* ComputerPaperRecommend.temp_caseinsensitive_rename.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ComputerPaperRecommend.temp_caseinsensitive_rename.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBAEC5F51D6008CD008878F7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		BBAEC5F71D6008CD008878F7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		BBAEC5F91D6008CD008878F7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		BBAEC5FD1D6008CD008878F7 /* computerPaperRecommend-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "computerPaperRecommend-Info.plist"; sourceTree = "<group>"; };
+		BBAEC5FD1D6008CD008878F7 /* ComputerPaperRecommend.temp_caseinsensitive_rename-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ComputerPaperRecommend.temp_caseinsensitive_rename-Info.plist"; sourceTree = "<group>"; };
 		BBAEC5FF1D6008CD008878F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BBAEC6011D6008CD008878F7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		BBAEC6031D6008CD008878F7 /* computerPaperRecommend-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "computerPaperRecommend-Prefix.pch"; sourceTree = "<group>"; };
+		BBAEC6031D6008CD008878F7 /* ComputerPaperRecommend.temp_caseinsensitive_rename-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ComputerPaperRecommend.temp_caseinsensitive_rename-Prefix.pch"; sourceTree = "<group>"; };
 		BBAEC6041D6008CD008878F7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BBAEC6051D6008CD008878F7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BBAEC6081D6008CD008878F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		BBAEC60B1D6008CD008878F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		BBAEC60D1D6008CD008878F7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BBAEC60E1D6008CD008878F7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BBAEC6081D6008CD008878F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BBAEC60D1D6008CD008878F7 /* HomePage.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HomePage.h; sourceTree = "<group>"; };
+		BBAEC60E1D6008CD008878F7 /* HomePage.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HomePage.m; sourceTree = "<group>"; };
 		BBAEC6101D6008CD008878F7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		BBAEC6161D6008CD008878F7 /* computerPaperRecommendTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = computerPaperRecommendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BBAEC6161D6008CD008878F7 /* ComputerPaperRecommend.temp_caseinsensitive_renameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ComputerPaperRecommend.temp_caseinsensitive_renameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBAEC6171D6008CD008878F7 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		BBAEC61F1D6008CD008878F7 /* computerPaperRecommendTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "computerPaperRecommendTests-Info.plist"; sourceTree = "<group>"; };
+		BBAEC61F1D6008CD008878F7 /* ComputerPaperRecommend.temp_caseinsensitive_renameTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ComputerPaperRecommend.temp_caseinsensitive_renameTests-Info.plist"; sourceTree = "<group>"; };
 		BBAEC6211D6008CD008878F7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		BBAEC6231D6008CD008878F7 /* computerPaperRecommendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = computerPaperRecommendTests.m; sourceTree = "<group>"; };
+		BBAEC6231D6008CD008878F7 /* ComputerPaperRecommendTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ComputerPaperRecommendTests.m; sourceTree = "<group>"; };
+		BBAEC62D1D600982008878F7 /* Readme */ = {isa = PBXFileReference; lastKnownFileType = text; path = Readme; sourceTree = "<group>"; };
+		BBAEC6351D600C9F008878F7 /* Defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Defines.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,8 +86,9 @@
 		BBAEC5E91D6008CD008878F7 = {
 			isa = PBXGroup;
 			children = (
-				BBAEC5FB1D6008CD008878F7 /* computerPaperRecommend */,
-				BBAEC61D1D6008CD008878F7 /* computerPaperRecommendTests */,
+				BBAEC62D1D600982008878F7 /* Readme */,
+				BBAEC5FB1D6008CD008878F7 /* ComputerPaperRecommend */,
+				BBAEC61D1D6008CD008878F7 /* ComputerPaperRecommendTests */,
 				BBAEC5F41D6008CD008878F7 /* Frameworks */,
 				BBAEC5F31D6008CD008878F7 /* Products */,
 			);
@@ -94,8 +97,8 @@
 		BBAEC5F31D6008CD008878F7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				BBAEC5F21D6008CD008878F7 /* computerPaperRecommend.app */,
-				BBAEC6161D6008CD008878F7 /* computerPaperRecommendTests.xctest */,
+				BBAEC5F21D6008CD008878F7 /* ComputerPaperRecommend.temp_caseinsensitive_rename.app */,
+				BBAEC6161D6008CD008878F7 /* ComputerPaperRecommend.temp_caseinsensitive_renameTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -111,56 +114,171 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BBAEC5FB1D6008CD008878F7 /* computerPaperRecommend */ = {
+		BBAEC5FB1D6008CD008878F7 /* ComputerPaperRecommend */ = {
 			isa = PBXGroup;
 			children = (
+				BBAEC62E1D600BB2008878F7 /* Global全局 */,
+				BBAEC62F1D600BCD008878F7 /* Controller控制器 */,
+				BBAEC6301D600BFC008878F7 /* Model模型 */,
+				BBAEC6311D600C02008878F7 /* Network网络操作 */,
+				BBAEC6321D600C1C008878F7 /* DB数据库 */,
+				BBAEC6331D600C57008878F7 /* Utility工具 */,
+				BBAEC6341D600C68008878F7 /* ThirdSDK第三方SDK */,
+				BBAEC6351D600C9F008878F7 /* Defines.h */,
 				BBAEC6041D6008CD008878F7 /* AppDelegate.h */,
 				BBAEC6051D6008CD008878F7 /* AppDelegate.m */,
-				BBAEC6071D6008CD008878F7 /* Main_iPhone.storyboard */,
-				BBAEC60A1D6008CD008878F7 /* Main_iPad.storyboard */,
-				BBAEC60D1D6008CD008878F7 /* ViewController.h */,
-				BBAEC60E1D6008CD008878F7 /* ViewController.m */,
-				BBAEC6101D6008CD008878F7 /* Images.xcassets */,
+				BBAEC6361D600CCF008878F7 /* Resource资源 */,
 				BBAEC5FC1D6008CD008878F7 /* Supporting Files */,
 			);
+			name = ComputerPaperRecommend;
 			path = computerPaperRecommend;
 			sourceTree = "<group>";
 		};
 		BBAEC5FC1D6008CD008878F7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BBAEC5FD1D6008CD008878F7 /* computerPaperRecommend-Info.plist */,
+				BBAEC5FD1D6008CD008878F7 /* ComputerPaperRecommend.temp_caseinsensitive_rename-Info.plist */,
 				BBAEC5FE1D6008CD008878F7 /* InfoPlist.strings */,
 				BBAEC6011D6008CD008878F7 /* main.m */,
-				BBAEC6031D6008CD008878F7 /* computerPaperRecommend-Prefix.pch */,
+				BBAEC6031D6008CD008878F7 /* ComputerPaperRecommend.temp_caseinsensitive_rename-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		BBAEC61D1D6008CD008878F7 /* computerPaperRecommendTests */ = {
+		BBAEC61D1D6008CD008878F7 /* ComputerPaperRecommendTests */ = {
 			isa = PBXGroup;
 			children = (
-				BBAEC6231D6008CD008878F7 /* computerPaperRecommendTests.m */,
+				BBAEC6231D6008CD008878F7 /* ComputerPaperRecommendTests.m */,
 				BBAEC61E1D6008CD008878F7 /* Supporting Files */,
 			);
+			name = ComputerPaperRecommendTests;
 			path = computerPaperRecommendTests;
 			sourceTree = "<group>";
 		};
 		BBAEC61E1D6008CD008878F7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				BBAEC61F1D6008CD008878F7 /* computerPaperRecommendTests-Info.plist */,
+				BBAEC61F1D6008CD008878F7 /* ComputerPaperRecommend.temp_caseinsensitive_renameTests-Info.plist */,
 				BBAEC6201D6008CD008878F7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BBAEC62E1D600BB2008878F7 /* Global全局 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Global全局";
+			sourceTree = "<group>";
+		};
+		BBAEC62F1D600BCD008878F7 /* Controller控制器 */ = {
+			isa = PBXGroup;
+			children = (
+				BBAEC6391D600D43008878F7 /* Cell单元格 */,
+				BBAEC6381D600D39008878F7 /* Widget控件 */,
+				BBAEC6371D600D2E008878F7 /* Page页面 */,
+			);
+			name = "Controller控制器";
+			sourceTree = "<group>";
+		};
+		BBAEC6301D600BFC008878F7 /* Model模型 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Model模型";
+			sourceTree = "<group>";
+		};
+		BBAEC6311D600C02008878F7 /* Network网络操作 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Network网络操作";
+			sourceTree = "<group>";
+		};
+		BBAEC6321D600C1C008878F7 /* DB数据库 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "DB数据库";
+			sourceTree = "<group>";
+		};
+		BBAEC6331D600C57008878F7 /* Utility工具 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Utility工具";
+			sourceTree = "<group>";
+		};
+		BBAEC6341D600C68008878F7 /* ThirdSDK第三方SDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "ThirdSDK第三方SDK";
+			sourceTree = "<group>";
+		};
+		BBAEC6361D600CCF008878F7 /* Resource资源 */ = {
+			isa = PBXGroup;
+			children = (
+				BBAEC63C1D600D78008878F7 /* Xib */,
+				BBAEC63B1D600D6E008878F7 /* Image图片 */,
+				BBAEC63A1D600D67008878F7 /* Config配置文件 */,
+			);
+			name = "Resource资源";
+			sourceTree = "<group>";
+		};
+		BBAEC6371D600D2E008878F7 /* Page页面 */ = {
+			isa = PBXGroup;
+			children = (
+				BBAEC60D1D6008CD008878F7 /* HomePage.h */,
+				BBAEC60E1D6008CD008878F7 /* HomePage.m */,
+			);
+			name = "Page页面";
+			sourceTree = "<group>";
+		};
+		BBAEC6381D600D39008878F7 /* Widget控件 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Widget控件";
+			sourceTree = "<group>";
+		};
+		BBAEC6391D600D43008878F7 /* Cell单元格 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Cell单元格";
+			sourceTree = "<group>";
+		};
+		BBAEC63A1D600D67008878F7 /* Config配置文件 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Config配置文件";
+			sourceTree = "<group>";
+		};
+		BBAEC63B1D600D6E008878F7 /* Image图片 */ = {
+			isa = PBXGroup;
+			children = (
+				BBAEC6101D6008CD008878F7 /* Images.xcassets */,
+			);
+			name = "Image图片";
+			sourceTree = "<group>";
+		};
+		BBAEC63C1D600D78008878F7 /* Xib */ = {
+			isa = PBXGroup;
+			children = (
+				BBAEC6071D6008CD008878F7 /* Main.storyboard */,
+				BB7D84BF1D63054800A9879B /* LaunchScreen.xib */,
+			);
+			name = Xib;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BBAEC5F11D6008CD008878F7 /* computerPaperRecommend */ = {
+		BBAEC5F11D6008CD008878F7 /* ComputerPaperRecommend.temp_caseinsensitive_rename */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBAEC6271D6008CD008878F7 /* Build configuration list for PBXNativeTarget "computerPaperRecommend" */;
+			buildConfigurationList = BBAEC6271D6008CD008878F7 /* Build configuration list for PBXNativeTarget "ComputerPaperRecommend.temp_caseinsensitive_rename" */;
 			buildPhases = (
 				BBAEC5EE1D6008CD008878F7 /* Sources */,
 				BBAEC5EF1D6008CD008878F7 /* Frameworks */,
@@ -170,14 +288,14 @@
 			);
 			dependencies = (
 			);
-			name = computerPaperRecommend;
+			name = ComputerPaperRecommend.temp_caseinsensitive_rename;
 			productName = computerPaperRecommend;
-			productReference = BBAEC5F21D6008CD008878F7 /* computerPaperRecommend.app */;
+			productReference = BBAEC5F21D6008CD008878F7 /* ComputerPaperRecommend.temp_caseinsensitive_rename.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BBAEC6151D6008CD008878F7 /* computerPaperRecommendTests */ = {
+		BBAEC6151D6008CD008878F7 /* ComputerPaperRecommend.temp_caseinsensitive_renameTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BBAEC62A1D6008CD008878F7 /* Build configuration list for PBXNativeTarget "computerPaperRecommendTests" */;
+			buildConfigurationList = BBAEC62A1D6008CD008878F7 /* Build configuration list for PBXNativeTarget "ComputerPaperRecommend.temp_caseinsensitive_renameTests" */;
 			buildPhases = (
 				BBAEC6121D6008CD008878F7 /* Sources */,
 				BBAEC6131D6008CD008878F7 /* Frameworks */,
@@ -188,9 +306,9 @@
 			dependencies = (
 				BBAEC61C1D6008CD008878F7 /* PBXTargetDependency */,
 			);
-			name = computerPaperRecommendTests;
+			name = ComputerPaperRecommend.temp_caseinsensitive_renameTests;
 			productName = computerPaperRecommendTests;
-			productReference = BBAEC6161D6008CD008878F7 /* computerPaperRecommendTests.xctest */;
+			productReference = BBAEC6161D6008CD008878F7 /* ComputerPaperRecommend.temp_caseinsensitive_renameTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -207,7 +325,7 @@
 					};
 				};
 			};
-			buildConfigurationList = BBAEC5ED1D6008CD008878F7 /* Build configuration list for PBXProject "computerPaperRecommend" */;
+			buildConfigurationList = BBAEC5ED1D6008CD008878F7 /* Build configuration list for PBXProject "ComputerPaperRecommend" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -220,8 +338,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BBAEC5F11D6008CD008878F7 /* computerPaperRecommend */,
-				BBAEC6151D6008CD008878F7 /* computerPaperRecommendTests */,
+				BBAEC5F11D6008CD008878F7 /* ComputerPaperRecommend.temp_caseinsensitive_rename */,
+				BBAEC6151D6008CD008878F7 /* ComputerPaperRecommend.temp_caseinsensitive_renameTests */,
 			);
 		};
 /* End PBXProject section */
@@ -231,9 +349,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBAEC60C1D6008CD008878F7 /* Main_iPad.storyboard in Resources */,
+				BB7D84C01D63054800A9879B /* LaunchScreen.xib in Resources */,
 				BBAEC6111D6008CD008878F7 /* Images.xcassets in Resources */,
-				BBAEC6091D6008CD008878F7 /* Main_iPhone.storyboard in Resources */,
+				BBAEC6091D6008CD008878F7 /* Main.storyboard in Resources */,
 				BBAEC6001D6008CD008878F7 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,7 +371,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBAEC60F1D6008CD008878F7 /* ViewController.m in Sources */,
+				BBAEC60F1D6008CD008878F7 /* HomePage.m in Sources */,
 				BBAEC6061D6008CD008878F7 /* AppDelegate.m in Sources */,
 				BBAEC6021D6008CD008878F7 /* main.m in Sources */,
 			);
@@ -263,7 +381,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BBAEC6241D6008CD008878F7 /* computerPaperRecommendTests.m in Sources */,
+				BBAEC6241D6008CD008878F7 /* ComputerPaperRecommendTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,7 +390,7 @@
 /* Begin PBXTargetDependency section */
 		BBAEC61C1D6008CD008878F7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = BBAEC5F11D6008CD008878F7 /* computerPaperRecommend */;
+			target = BBAEC5F11D6008CD008878F7 /* ComputerPaperRecommend.temp_caseinsensitive_rename */;
 			targetProxy = BBAEC61B1D6008CD008878F7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -286,20 +404,12 @@
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		BBAEC6071D6008CD008878F7 /* Main_iPhone.storyboard */ = {
+		BBAEC6071D6008CD008878F7 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				BBAEC6081D6008CD008878F7 /* Base */,
 			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		BBAEC60A1D6008CD008878F7 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BBAEC60B1D6008CD008878F7 /* Base */,
-			);
-			name = Main_iPad.storyboard;
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		BBAEC6201D6008CD008878F7 /* InfoPlist.strings */ = {
@@ -390,10 +500,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "computerPaperRecommend/computerPaperRecommend-Prefix.pch";
-				INFOPLIST_FILE = "computerPaperRecommend/computerPaperRecommend-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "computerPaperRecommend/ComputerPaperRecommend.temp_caseinsensitive_rename-Prefix.pch";
+				INFOPLIST_FILE = "computerPaperRecommend/ComputerPaperRecommend.temp_caseinsensitive_rename-Info.plist";
+				PRODUCT_NAME = ComputerPaperRecommend.temp_caseinsensitive_rename;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -403,10 +515,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "computerPaperRecommend/computerPaperRecommend-Prefix.pch";
-				INFOPLIST_FILE = "computerPaperRecommend/computerPaperRecommend-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				GCC_PREFIX_HEADER = "computerPaperRecommend/ComputerPaperRecommend.temp_caseinsensitive_rename-Prefix.pch";
+				INFOPLIST_FILE = "computerPaperRecommend/ComputerPaperRecommend.temp_caseinsensitive_rename-Info.plist";
+				PRODUCT_NAME = ComputerPaperRecommend.temp_caseinsensitive_rename;
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -426,8 +540,8 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = "computerPaperRecommendTests/computerPaperRecommendTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "computerPaperRecommendTests/ComputerPaperRecommend.temp_caseinsensitive_renameTests-Info.plist";
+				PRODUCT_NAME = ComputerPaperRecommend.temp_caseinsensitive_renameTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -444,8 +558,8 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "computerPaperRecommend/computerPaperRecommend-Prefix.pch";
-				INFOPLIST_FILE = "computerPaperRecommendTests/computerPaperRecommendTests-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				INFOPLIST_FILE = "computerPaperRecommendTests/ComputerPaperRecommend.temp_caseinsensitive_renameTests-Info.plist";
+				PRODUCT_NAME = ComputerPaperRecommend.temp_caseinsensitive_renameTests;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -454,7 +568,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BBAEC5ED1D6008CD008878F7 /* Build configuration list for PBXProject "computerPaperRecommend" */ = {
+		BBAEC5ED1D6008CD008878F7 /* Build configuration list for PBXProject "ComputerPaperRecommend" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BBAEC6251D6008CD008878F7 /* Debug */,
@@ -463,21 +577,23 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BBAEC6271D6008CD008878F7 /* Build configuration list for PBXNativeTarget "computerPaperRecommend" */ = {
+		BBAEC6271D6008CD008878F7 /* Build configuration list for PBXNativeTarget "ComputerPaperRecommend.temp_caseinsensitive_rename" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BBAEC6281D6008CD008878F7 /* Debug */,
 				BBAEC6291D6008CD008878F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		BBAEC62A1D6008CD008878F7 /* Build configuration list for PBXNativeTarget "computerPaperRecommendTests" */ = {
+		BBAEC62A1D6008CD008878F7 /* Build configuration list for PBXNativeTarget "ComputerPaperRecommend.temp_caseinsensitive_renameTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				BBAEC62B1D6008CD008878F7 /* Debug */,
 				BBAEC62C1D6008CD008878F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

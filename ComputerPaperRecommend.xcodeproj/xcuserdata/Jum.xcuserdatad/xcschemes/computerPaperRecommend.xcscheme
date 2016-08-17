@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BBAEC5F11D6008CD008878F7"
-               BuildableName = "computerPaperRecommend.app"
-               BlueprintName = "computerPaperRecommend"
-               ReferencedContainer = "container:computerPaperRecommend.xcodeproj">
+               BuildableName = "ComputerPaperRecommend.temp_caseinsensitive_rename.app"
+               BlueprintName = "ComputerPaperRecommend.temp_caseinsensitive_rename"
+               ReferencedContainer = "container:ComputerPaperRecommend.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "BBAEC6151D6008CD008878F7"
-               BuildableName = "computerPaperRecommendTests.xctest"
-               BlueprintName = "computerPaperRecommendTests"
-               ReferencedContainer = "container:computerPaperRecommend.xcodeproj">
+               BuildableName = "ComputerPaperRecommend.temp_caseinsensitive_renameTests.xctest"
+               BlueprintName = "ComputerPaperRecommend.temp_caseinsensitive_renameTests"
+               ReferencedContainer = "container:ComputerPaperRecommend.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BBAEC5F11D6008CD008878F7"
-            BuildableName = "computerPaperRecommend.app"
-            BlueprintName = "computerPaperRecommend"
-            ReferencedContainer = "container:computerPaperRecommend.xcodeproj">
+            BuildableName = "ComputerPaperRecommend.temp_caseinsensitive_rename.app"
+            BlueprintName = "ComputerPaperRecommend.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:ComputerPaperRecommend.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BBAEC5F11D6008CD008878F7"
-            BuildableName = "computerPaperRecommend.app"
-            BlueprintName = "computerPaperRecommend"
-            ReferencedContainer = "container:computerPaperRecommend.xcodeproj">
+            BuildableName = "ComputerPaperRecommend.temp_caseinsensitive_rename.app"
+            BlueprintName = "ComputerPaperRecommend.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:ComputerPaperRecommend.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -80,9 +80,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "BBAEC5F11D6008CD008878F7"
-            BuildableName = "computerPaperRecommend.app"
-            BlueprintName = "computerPaperRecommend"
-            ReferencedContainer = "container:computerPaperRecommend.xcodeproj">
+            BuildableName = "ComputerPaperRecommend.temp_caseinsensitive_rename.app"
+            BlueprintName = "ComputerPaperRecommend.temp_caseinsensitive_rename"
+            ReferencedContainer = "container:ComputerPaperRecommend.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
