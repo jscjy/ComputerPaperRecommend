@@ -1,4 +1,4 @@
-//
+//  程序入口
 //  AppDelegate.h
 //  computerPaperRecommend
 //

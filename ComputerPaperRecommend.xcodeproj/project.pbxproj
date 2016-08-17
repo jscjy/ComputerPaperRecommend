@@ -83,6 +83,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB0F543C1D645759009ACADE /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				BBAEC6351D600C9F008878F7 /* Defines.h */,
+			);
+			name = Define;
+			sourceTree = "<group>";
+		};
 		BBAEC5E91D6008CD008878F7 = {
 			isa = PBXGroup;
 			children = (
@@ -117,6 +125,7 @@
 		BBAEC5FB1D6008CD008878F7 /* ComputerPaperRecommend */ = {
 			isa = PBXGroup;
 			children = (
+				BB0F543C1D645759009ACADE /* Define */,
 				BBAEC62E1D600BB2008878F7 /* Global全局 */,
 				BBAEC62F1D600BCD008878F7 /* Controller控制器 */,
 				BBAEC6301D600BFC008878F7 /* Model模型 */,
@@ -124,7 +133,6 @@
 				BBAEC6321D600C1C008878F7 /* DB数据库 */,
 				BBAEC6331D600C57008878F7 /* Utility工具 */,
 				BBAEC6341D600C68008878F7 /* ThirdSDK第三方SDK */,
-				BBAEC6351D600C9F008878F7 /* Defines.h */,
 				BBAEC6041D6008CD008878F7 /* AppDelegate.h */,
 				BBAEC6051D6008CD008878F7 /* AppDelegate.m */,
 				BBAEC6361D600CCF008878F7 /* Resource资源 */,
